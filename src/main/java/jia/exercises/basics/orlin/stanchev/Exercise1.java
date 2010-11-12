@@ -1,7 +1,6 @@
 package jia.exercises.basics.orlin.stanchev;
 
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileWriter;
 import java.util.Scanner;
 
@@ -15,25 +14,25 @@ import java.util.Scanner;
 public class Exercise1 {
     public static void main(String[] args) {
 
-		System.out.println("Pleae, Enter Your First Name: ");
+		System.out.println("Please, Enter Your First Name: ");
 		Scanner scanner = new Scanner(System.in);
 		String inputFirstName = scanner.nextLine();
 
-		System.out.println("Pleae, Enter Your Last Name: ");
+		System.out.println("Please, Enter Your Last Name: ");
 		String inputLastName = scanner.nextLine();
 
-		System.out.println("Pleae, Enter Your Age: ");
+		System.out.println("Please, Enter Your Age: ");
 		String inputAge = scanner.nextLine();
 
-		System.out.println("Pleae, Enter Your Function: ");
+		System.out.println("Please, Enter Your Employee Job: ");
 		String inputFunction = scanner.nextLine();
 
-		System.out.println("Pleae, Enter Your Salary: ");
+		System.out.println("Please, Enter Your Salary: ");
 		String inputSalary = scanner.nextLine();
 
 		try{
 		    // Create the file
-		    FileWriter fstream = new FileWriter("out.txt", true);
+		    FileWriter fstream = new FileWriter("outFile.txt", true);
 		    BufferedWriter out = new BufferedWriter(fstream);
 		    out.write(inputFirstName + "\t\t\t" + inputLastName + "\t\t\t" +
 		    		inputAge + "\t\t\t" + inputFunction + "\t\t\t" + inputSalary + "\n");
