@@ -213,7 +213,7 @@ public class Rational {
 
     public static void main(String[] args) {
 
-        Rational rn1 = new Rational(3, 2);
+        Rational rn1 = new Rational(5, 2);
         Rational rn2 = new Rational(7, 8);
         Rational rn3, rn4, rn5, rn6, rn7;
 
