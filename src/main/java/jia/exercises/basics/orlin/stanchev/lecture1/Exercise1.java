@@ -1,4 +1,4 @@
-package jia.exercises.basics.orlin.stanchev;
+package jia.exercises.basics.orlin.stanchev.lecture1;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
